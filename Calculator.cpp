@@ -215,7 +215,7 @@ void fourthSem()
     input(a,b,totalCourse);
     for(i=1; i<=totalCourse; i++)
     {
-        if(i==2 && i==4)
+        if(i==2 || i==4)
         {
             credit = 1.5;
             course[i]=credit*course[i];
